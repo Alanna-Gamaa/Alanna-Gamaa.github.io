@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0c0ce94d;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+.form {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 3rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+}
+fieldset{
+
+    width:100%;
+    padding: 20px;
+    margin: 0px auto;
+    border: #adadad solid 2px;
+    border-radius: 10px;
+}
+
+fieldset legend{
+    padding: 0px 10px;
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: #000000c0;
+    
+}
+
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 1.1rem;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+fieldset input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: 0.8rem;
+    width: 80%;
+    
+}
+
+.emp-box fieldset {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+fieldset input:hover {
+    background-color: #eeeeee75;
+}
+
+fieldset input:focus-visible {
+    outline: 1px solid #50b873;
+}
+
+
+
+
+.form-header {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.form-header h1::after {
+    content: '';
+    display: block;
+    width: 14rem;
+    height: 0.3rem;
+    background-color: #50b873;
+    margin: 0 auto;
+    
+    position: absolute;
+    border-radius: 10px;
+}
+
+.form-header p{
+    margin-top: 30px;
+    text-align: justify;
+    width: 90%;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: 0.8rem;
+}
+
+.input-box input:hover {
+    background-color: #eeeeee75;
+}
+
+.input-box input:focus-visible {
+    outline: 1px solid #50b873;
+}
+.gender-title{
+    margin-top: 40px;
+}
+.input-box label,
+.gender-title h6 {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #000000c0;
+    
+}
+
+.input-box input::placeholder {
+    color: #000000be;
+}
+
+.gender-group {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0.62rem;
+    padding: 0 .5rem;
+}
+
+.gender-input {
+    display: flex;
+    align-items: center;
+    margin: 20px 20px;
+}
+
+.gender-input input {
+    margin-right: 0.35rem;
+}
+
+.gender-input label {
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.continue-button button {
+    width: 100%;
+    margin-top: 2.5rem;
+    border: none;
+    background-color: #50b873;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.continue-button button:hover {
+    background-color: #42925d;
+}
+
+.continue-button button  {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+.check{
+    display: flex;
+    flex-direction: column;
+    
+    padding: 20px 0px ;
+    margin-top: 40px;
+
+    
+}.check h4 {
+    margin-bottom: 10px;
+}
+.check-input{
+    margin: 5px;
+
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+.check-input-text{
+    display:flex;
+    flex-direction: column;
+    margin-top: 10px;
+
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #000000c0;
+
+
+}
+
+ textarea{
+    margin-top: 10px;
+    outline: unset;
+    padding: 30x;
+    width: 90%;
+    border: 1.5px solid #747474;
+    border-radius: 10px;
+}
+
+
+.dados-epresas{
+    margin: 20px 0px;
+
+}
+
+.emp-box{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 20px 0px;
+}
+
+.emp-box input[type =text]{
+        margin: 0.6rem 0;
+        padding: 0.8rem 1.2rem;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 1px 1px 6px #0000001c;
+        font-size: 0.8rem;
+    
+}
+.emp-box input[type =text]:hover {
+    background-color: #eeeeee75;
+}
+    
+.emp-box input[type =text]:focus-visible {
+    outline: 1px solid #50b873;
+}
+
+.add-exp , .add-idioma{
+    background-color: #42925d;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    width: 30%;
+    margin-top: 10px;
+
+    cursor: pointer;
+
+}
+
+label.error{
+    color: rgb(155, 29, 29);
+}
+
+
+.exp-pro{
+    margin-bottom: 60px;
+}
+
+
+select {
+    font-family: Arial, sans-serif; /* Define a fonte do texto do seletor */
+    font-size: 16px; /* Define o tamanho do texto do seletor */
+    padding: 10px; /* Adiciona um espaçamento interno para o seletor */
+    border: none; /* Remove a borda padrão do seletor */
+    background-color: #f2f2f2; /* Define a cor de fundo do seletor */
+    color: #333; /* Define a cor do texto do seletor */
+    border-radius: 5px; /* Adiciona um arredondamento de borda */
+    appearance: none; /* Remove a aparência padrão do seletor */
+
+  }
+  
+  select:hover,
+  select:focus {
+    background-color: #e6e6e6; /* Define a cor de fundo do seletor quando hover/focus */
+  }
+  
+  option {
+    font-family: Arial, sans-serif; /* Define a fonte do texto das opções */
+    font-size: 16px; /* Define o tamanho do texto das opções */
+    padding: 10px; /* Adiciona um espaçamento interno para as opções */
+    background-color: #fff; /* Define a cor de fundo das opções */
+    color: #4d4d4d; /* Define a cor do texto das opções */
+  }
+
+
+@media screen and (max-width: 1330px) {
+    .form-image {
+        display: none;
+    }
+    .container {
+        width: 50%;
+    }
+    .form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1064px) {
+    .container {
+        width: 90%;
+        height: auto;
+    }
+    .input-group {
+        flex-direction: column;
+        z-index: 5;
+        padding-right: 5rem;
+        max-height: 10rem;
+        overflow-y: scroll;
+        flex-wrap: nowrap;
+    }
+    .gender-inputs {
+        margin-top: 2rem;
+        
+    }
+    .gender-group {
+        flex-direction: column;
+    }
+    .gender-title h6 {
+        margin: 0;
+    }
+    .gender-input {
+        margin-top: 0.5rem;
+    }
+}
